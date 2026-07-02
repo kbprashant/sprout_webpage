@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<title>Barbie Flip Phone 🍬</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>🍭 Barbie Kids Phone</h1>
+
+<div class="phone-scene">
+  <div class="phone" id="phone">
+
+    <!-- TOP LID: flips open/closed -->
+    <div class="phone-top" id="phoneTop">
+      <div class="face face-back" id="faceBack">
+        <div class="cover-ridges"></div>
+        <div class="cover-sticker">
+          <span class="cover-emoji">🌸</span>
+          <span class="cover-text">tap me!</span>
+        </div>
+      </div>
+      <div class="face face-front">
+        <div class="screen" id="screen">
+          <div class="status-bar"><span>📶📶📶</span><span>💖 100%</span></div>
+          <div class="stars"></div>
+          <div class="stage" id="stage">
+            <div class="idle-msg">Press any button<br>to say hello! 👋</div>
+          </div>
+          <div class="popup-badge" id="badge"></div>
+        </div>
+        <button class="close-btn" id="closeBtn" title="Close phone">▾</button>
+      </div>
+    </div>
+
+    <!-- BOTTOM BODY: keypad, stays put -->
+    <div class="phone-bottom">
+      <div class="hinge-ridges"></div>
+      <div class="keypad" id="keypad"></div>
+      <div class="lanyard"><div class="lanyard-string"></div><div class="lanyard-tip"></div></div>
+    </div>
+
+  </div>
+</div>
+
+<footer>tap to open • tap keys • giggle</footer>
+
+<script src="js/config.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
